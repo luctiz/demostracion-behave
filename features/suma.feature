@@ -1,7 +1,6 @@
 Feature: Suma de python
 
   Scenario: Sumar usando constantes
-     Given un programa cualquiera
       When hacemos 2+2
       Then obtenemos 4
       

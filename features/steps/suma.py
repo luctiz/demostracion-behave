@@ -1,10 +1,5 @@
 from behave import *
 
-@given(u'un programa cualquiera')
-def step_impl(context):
-    pass
-
-
 @when(u'hacemos 2+2')
 def step_impl(context):
     context.resultado = 2+2
